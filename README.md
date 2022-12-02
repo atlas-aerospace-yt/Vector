@@ -1,6 +1,6 @@
 # Vector
 
-![pylint](https://github.com/atlas-aerospace-yt/Vector/actions/workflows/pylint.yml/badge.svg)
+![pylint](https://github.com/atlas-aerospace-yt/Vector/actions/workflows/pylint.yml/badge.svg)<br>
 A python vector library
 
 ## Contents
