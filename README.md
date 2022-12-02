@@ -1,6 +1,5 @@
 # Vector
 
-![pylint](https://github.com/atlas-aerospace-yt/Vector/actions/workflows/pylint.yml/badge.svg)<br>
 A python vector library
 
 ## Contents
@@ -35,3 +34,5 @@ activation.linear_prime(vec)
 ```
 In the example above, vec is either an integer, float, or Vector. `sigmoid` is: 1 / (1 + e ^ -x) and `linear` is: 0.5 * x.
 The `_prime` in the function name means derivative. 
+
+![pylint](https://github.com/atlas-aerospace-yt/Vector/actions/workflows/pylint.yml/badge.svg)<br>
