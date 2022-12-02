@@ -15,7 +15,7 @@ Vector is a mathematical library for python. In my search to understand artifici
 
 To install this library using pip, you need to type `pip install vector-ai-ml`. This file can then be imported using `import vector`.
 
-## usage
+## Usage
 
 To import the library:
 ```
