@@ -33,6 +33,6 @@ The `_prime` in the function name means derivative.
 
 ## Installation
 
-To install this library using pip, you need to type `pip install vector-ai-ml`. This file can then be imported using `import vector`.
+To install this library using pip, you need to type `pip install vector-ai-ml`.
 
 ![pylint](https://github.com/atlas-aerospace-yt/Vector/actions/workflows/pylint.yml/badge.svg)<br>
