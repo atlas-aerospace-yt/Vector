@@ -1,15 +1,11 @@
 from setuptools import setup, find_packages
-import codecs
-import os
 
-here = os.path.abspath(os.path.dirname(__file__))
+from pathlib import Path
+this_directory = Path(__file__).parent
 
-with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
-    long_description = "\n" + fh.read()
-
-VERSION = '0.0.1'
+VERSION = '0.0.3'
 DESCRIPTION = 'A simple python vector package.'
-LONG_DESCRIPTION = 'A package that allows vector operators specifically aimed at machine learning.'
+LONG_DESCRIPTION = (this_directory / "README.md").read_text()
 
 # Setting up
 setup(
@@ -17,6 +13,8 @@ setup(
     version=VERSION,
     author="AtlasAerospace (Alexander Armitage)",
     description=DESCRIPTION,
+    long_description=LONG_DESCRIPTION,
+    long_description_content_type='text/markdown',
     packages=find_packages(),
     keywords=['python', 'math', 'ai', 'ml', 'artificialintelligence'],
     classifiers=[
