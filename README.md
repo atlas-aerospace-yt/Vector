@@ -19,8 +19,8 @@ from vector import Vector
 from vector import activation
 from vector import random
 ```
-To define a vector object, `a = Vector([1, 0, 0, 1])` or `a = Vector(1)`. This class definition takes in either a list, tuple, int, or float. 
-To generate a random vector, `a = random.random_vector(length, lower_bound, upper_bound)`, `lower_bound` and `upper_bound` are optional arguments and by default are -0.1 and 0.1 respectively.
+To define a vector object, `a = Vector([1, 0, 0, 1])` or `a = Vector(1)`. This class definition takes in either a list, tuple, int, or float. <br>
+To generate a random vector, `a = random.random_vector(length, lower_bound, upper_bound)`, `lower_bound` and `upper_bound` are optional arguments and by default are -0.1 and 0.1 respectively.<br>
 The vector library has 2 activation functions and the 2 derivative functions of those functions:
 ```
 activation.sigmoig(vec)
